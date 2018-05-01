@@ -9,3 +9,14 @@
 /Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.UdpDataReceiver/bin/Debug/netcoreapp2.0/BMC.UdpDataReceiver.pdb
 /Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.dll
 /Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.pdb
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/bin/Debug/netcoreapp2.0/BMC.UdpDataReceiver.deps.json
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/bin/Debug/netcoreapp2.0/BMC.UdpDataReceiver.runtimeconfig.json
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/bin/Debug/netcoreapp2.0/BMC.UdpDataReceiver.runtimeconfig.dev.json
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/bin/Debug/netcoreapp2.0/BMC.UdpDataReceiver.dll
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/bin/Debug/netcoreapp2.0/BMC.UdpDataReceiver.pdb
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.csprojResolveAssemblyReference.cache
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.csproj.CoreCompileInputs.cache
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.AssemblyInfoInputs.cache
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.AssemblyInfo.cs
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.dll
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.pdb

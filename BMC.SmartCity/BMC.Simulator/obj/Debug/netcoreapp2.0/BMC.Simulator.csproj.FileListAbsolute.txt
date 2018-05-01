@@ -1,0 +1,11 @@
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/bin/Debug/netcoreapp2.0/BMC.Simulator.deps.json
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/bin/Debug/netcoreapp2.0/BMC.Simulator.runtimeconfig.json
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/bin/Debug/netcoreapp2.0/BMC.Simulator.runtimeconfig.dev.json
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/bin/Debug/netcoreapp2.0/BMC.Simulator.dll
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/bin/Debug/netcoreapp2.0/BMC.Simulator.pdb
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/obj/Debug/netcoreapp2.0/BMC.Simulator.csprojResolveAssemblyReference.cache
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/obj/Debug/netcoreapp2.0/BMC.Simulator.csproj.CoreCompileInputs.cache
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/obj/Debug/netcoreapp2.0/BMC.Simulator.AssemblyInfoInputs.cache
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/obj/Debug/netcoreapp2.0/BMC.Simulator.AssemblyInfo.cs
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/obj/Debug/netcoreapp2.0/BMC.Simulator.dll
+/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/obj/Debug/netcoreapp2.0/BMC.Simulator.pdb
