@@ -1,15 +1,5 @@
 ﻿<Properties StartupConfiguration="{69E3DEA0-7D46-4733-BD71-45906D21EE79}|Default">
-  <MonoDevelop.Ide.ItemProperties.BMC.Simulator FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BMC.Simulator/Program.cs">
-    <Files>
-      <File FileName="BMC.Simulator/Program.cs" Line="70" Column="35" />
-      <File FileName="BMC.UdpDataReceiver/appsettings.json" Line="8" Column="43" />
-      <File FileName="BMC.Simulator/GlobalConfig.cs" Line="42" Column="39" />
-      <File FileName="BMC.UdpDataReceiver/Program.cs" Line="25" Column="12" />
-      <File FileName="BMC.Simulator/appsettings.json" Line="18" Column="1" />
-      <File FileName="BMC.Simulator/appsettings.Development.json" Line="18" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

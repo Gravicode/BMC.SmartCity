@@ -84,7 +84,7 @@ namespace BMC.Simulator
             data.DeviceID = 99;
                 data.DeviceName = "Water Flow Sensor";
                 data.SensorType = "FlowSensor";
- 
+            long counter = 0;
             while (true)
             {
                 try
@@ -94,11 +94,11 @@ namespace BMC.Simulator
                     byte[] bytes = Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(data));
                     // send data
                     client.Send(bytes, bytes.Length);
-
+                    Console.WriteLine($"Send Data Count : {counter}");
                     // then receive data
-                    var receivedData = client.Receive(ref ep);
+                    //var receivedData = client.Receive(ref ep);
 
-                    Console.Write("receive data from " + ep.ToString());
+                    //Console.Write("receive data from " + ep.ToString());
                 }
                 catch(Exception ex){
                     Console.WriteLine(ex.Message + "_" + ex.StackTrace);
