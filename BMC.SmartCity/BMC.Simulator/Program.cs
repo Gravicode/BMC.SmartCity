@@ -75,15 +75,16 @@ namespace BMC.Simulator
 
         static void Loop()
         {
-            
+
             var client = new UdpClient();
-            IPEndPoint ep = new IPEndPoint(IPAddress.Parse(GlobalConfig.UdpServer), int.Parse( GlobalConfig.UdpPort)); // endpoint where server is listening
+            IPEndPoint ep = new IPEndPoint(IPAddress.Parse(GlobalConfig.UdpServer), int.Parse(GlobalConfig.UdpPort)); // endpoint where server is listening
             client.Connect(ep);
             SensorData data = new SensorData();
             Random rnd = new Random();
             data.DeviceID = 99;
-                data.DeviceName = "Water Flow Sensor";
-                data.SensorType = "FlowSensor";
+            data.DeviceName = "Water Flow Sensor";
+            data.SensorType = "FlowSensor";
+            data.Status = "Active";
             long counter = 0;
             while (true)
             {
@@ -94,13 +95,14 @@ namespace BMC.Simulator
                     byte[] bytes = Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(data));
                     // send data
                     client.Send(bytes, bytes.Length);
-                    Console.WriteLine($"Send Data Count : {counter}");
+                    Console.WriteLine($"Send Data Count : {counter++}");
                     // then receive data
                     //var receivedData = client.Receive(ref ep);
 
                     //Console.Write("receive data from " + ep.ToString());
                 }
-                catch(Exception ex){
+                catch (Exception ex)
+                {
                     Console.WriteLine(ex.Message + "_" + ex.StackTrace);
                 }
                 Thread.Sleep(2000);
