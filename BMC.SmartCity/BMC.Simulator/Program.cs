@@ -80,21 +80,35 @@ namespace BMC.Simulator
             IPEndPoint ep = new IPEndPoint(IPAddress.Parse(GlobalConfig.UdpServer), int.Parse(GlobalConfig.UdpPort)); // endpoint where server is listening
             client.Connect(ep);
             SensorData data = new SensorData();
+            SensorData data2 = new SensorData();
             Random rnd = new Random();
             data.DeviceID = 99;
             data.DeviceName = "Water Flow Sensor";
             data.SensorType = "FlowSensor";
             data.Status = "Active";
+
+            data2.DeviceID = 98;
+            data2.DeviceName = "Water Height Sensor";
+            data2.SensorType = "DistanceSensor";
+            data2.Status = "Active";
             long counter = 0;
             while (true)
             {
                 try
                 {
+                    //sensor 1
                     data.CreatedDate = DateTime.Now;
                     data.DataValue = rnd.Next(1, 100);
                     byte[] bytes = Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(data));
                     // send data
                     client.Send(bytes, bytes.Length);
+                    //sensor 2
+                    data2.CreatedDate = DateTime.Now;
+                    data2.DataValue = rnd.Next(50, 120);
+                    byte[] bytes2 = Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(data2));
+                    // send data
+                    client.Send(bytes2, bytes2.Length);
+
                     Console.WriteLine($"Send Data Count : {counter++}");
                     // then receive data
                     //var receivedData = client.Receive(ref ep);
