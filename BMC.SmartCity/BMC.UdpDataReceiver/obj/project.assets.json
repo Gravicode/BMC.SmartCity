@@ -3727,11 +3727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.UdpDataReceiver/BMC.UdpDataReceiver.csproj",
+      "projectUniqueName": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/BMC.UdpDataReceiver.csproj",
       "projectName": "BMC.UdpDataReceiver",
-      "projectPath": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.UdpDataReceiver/BMC.UdpDataReceiver.csproj",
+      "projectPath": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/BMC.UdpDataReceiver.csproj",
       "packagesPath": "/Users/mifmasterz/.nuget/packages/",
-      "outputPath": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.UdpDataReceiver/obj",
+      "outputPath": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

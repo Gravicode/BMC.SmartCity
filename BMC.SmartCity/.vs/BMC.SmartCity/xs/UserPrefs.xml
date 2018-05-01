@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{69E3DEA0-7D46-4733-BD71-45906D21EE79}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BMC.UdpDataReceiver/appsettings.Development.json">
+    <Files>
+      <File FileName="BMC.UdpDataReceiver/appsettings.Development.json" Line="21" Column="1" />
+      <File FileName="BMC.UdpDataReceiver/appsettings.json" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
