@@ -63,9 +63,9 @@ namespace BMC.CoreLibrary.Properties {
         /// <summary>
         ///   Looks up a localized string similar to [{&quot;Name&quot;:&quot;Rule Water Flow&quot;,&quot;DateCreated&quot;:&quot;2018-05-03T00:00:00&quot;,&quot;DateModified&quot;:&quot;2018-05-03T00:00:00&quot;,&quot;Enabled&quot;:true,&quot;Description&quot;:&quot;Check water flow threshold&quot;,&quot;GroupId&quot;:1,&quot;Severity&quot;:&quot;High&quot;,&quot;Conditions&quot;:[{&quot;Field&quot;:&quot;Water Flow Sensor&quot;,&quot;Operator&quot;:0,&quot;Value&quot;:60.0}]},{&quot;Name&quot;:&quot;Rule Water Height&quot;,&quot;DateCreated&quot;:&quot;2018-05-03T00:00:00&quot;,&quot;DateModified&quot;:&quot;2018-05-03T00:00:00&quot;,&quot;Enabled&quot;:true,&quot;Description&quot;:&quot;Check water height threshold&quot;,&quot;GroupId&quot;:2,&quot;Severity&quot;:&quot;High&quot;,&quot;Conditions&quot;:[{&quot;Field&quot;:&quot;Water Height Sensor&quot;,&quot;Operator&quot;:1,&quot;Va [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string rules {
+        internal static string JsonRule {
             get {
-                return ResourceManager.GetString("rules", resourceCulture);
+                return ResourceManager.GetString("JsonRule", resourceCulture);
             }
         }
     }

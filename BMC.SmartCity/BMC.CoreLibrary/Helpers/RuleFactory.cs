@@ -17,7 +17,7 @@ namespace BMC.CoreLibrary.Helpers
             var JsonRule = "";
             if (GetFromResources)
             {
-                JsonRule = Resources.rules;
+                JsonRule = Resources.JsonRule;
             }
             Rules = JsonConvert.DeserializeObject<List<Rule>>(JsonRule);
 
