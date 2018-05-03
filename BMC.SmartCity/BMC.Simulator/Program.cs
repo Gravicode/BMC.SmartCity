@@ -10,6 +10,9 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
 using System.IO;
+using BMC.CoreLibrary.Models;
+using BMC.CoreLibrary.Helpers;
+
 namespace BMC.Simulator
 {
     class Program
@@ -20,6 +23,10 @@ namespace BMC.Simulator
         {
             Console.WriteLine("Data Sensor Simulator\r\nPress Any Key to Stop.");
             Setup();
+            //Rule rule = new Rule() { Id=1, Description="Check water flow threshold", Enabled=true, GroupId=1, Name="Rule Water Flow", Severity="High", Conditions=new List<Condition>()  { new Condition() { Field="Water Flow Sensor", Operator=ConditionOperators.GreaterThan, Value=60 } } };
+            //Rule rule2 = new Rule() { Id = 2, Description = "Check water height threshold", Enabled = true, GroupId = 2, Name = "Rule Water Height", Severity = "High", Conditions = new List<Condition>() { new Condition() { Field = "Water Height Sensor", Operator = ConditionOperators.GreaterEqualThan, Value = 90 } } };
+            //RuleFactory.ConvertRuleToJson(new List<Rule>() { rule, rule2 }, @"c:\temp\rules.json");
+            
             Task loop = new Task(new Action(Loop));
             loop.Start();
             Console.ReadLine();
@@ -126,21 +133,5 @@ namespace BMC.Simulator
         }
     }
 
-    public class SensorData
-    {
-        public DateTime CreatedDate { get; set; }
-        public double DataValue { get; set; }
-        public string DeviceName { get; set; }
-        public long DeviceID { get; set; }
-        public string SensorType
-        {
-            get;
-            set;
-        }
-        public string Status
-        {
-            get;
-            set;
-        }
-    }
+    
 }

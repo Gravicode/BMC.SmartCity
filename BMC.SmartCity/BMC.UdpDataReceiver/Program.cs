@@ -11,6 +11,9 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
 using System.IO;
+using BMC.CoreLibrary.Models;
+using BMC.CoreLibrary.Helpers;
+
 namespace BMC.UdpDataReceiver
 {
     class Program
@@ -30,6 +33,7 @@ namespace BMC.UdpDataReceiver
         static void Loop()
         {
             UdpClient udpServer = new UdpClient(int.Parse(GlobalConfig.UdpPort));
+            var Validator = new RuleFactory(true);
 
             while (true)
             {
@@ -46,6 +50,16 @@ namespace BMC.UdpDataReceiver
                     //call power bi api
                     //SendToPowerBI(sensorValue);
                     SendToInfluxDB(obj);
+
+                    //check rule
+                    var violated = Validator.ValidateRule(obj);
+                    if (violated.Count > 0)
+                    {
+                       foreach(var vItem in violated)
+                        {
+                            Console.WriteLine($"--> alarm triggered [{vItem.CreatedDate}] : {vItem.Message}");
+                        }
+                    }
                     Thread.Sleep(2000);
                 }
 
@@ -66,7 +80,8 @@ namespace BMC.UdpDataReceiver
             }
 
         }
-        static void Setup(){
+        static void Setup()
+        {
             Console.OutputEncoding = Encoding.UTF8;
 
             string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
@@ -112,7 +127,7 @@ namespace BMC.UdpDataReceiver
             Metrics.Collector = new CollectorConfiguration()
  .Tag.With("host", Environment.GetEnvironmentVariable("COMPUTERNAME"))
  .Batch.AtInterval(TimeSpan.FromSeconds(2))
-                .WriteTo.InfluxDB(GlobalConfig.InfluxDBUrl+":"+GlobalConfig.InfluxDBPort, GlobalConfig.InfluxDBName)
+                .WriteTo.InfluxDB(GlobalConfig.InfluxDBUrl + ":" + GlobalConfig.InfluxDBPort, GlobalConfig.InfluxDBName)
  .CreateCollector();
         }
         static void SendToInfluxDB(SensorData data)
@@ -128,7 +143,7 @@ namespace BMC.UdpDataReceiver
                 { "deviceid", data.DeviceID },
 
                 });
-            
+
             //Metrics.Measure(data.SensorType, data.DataValue);
         }
         static async void SendToPowerBI(SensorData data)
@@ -143,21 +158,5 @@ namespace BMC.UdpDataReceiver
         }
     }
 
-    public class SensorData
-    {
-        public DateTime CreatedDate { get; set; }
-        public double DataValue { get; set; }
-        public string DeviceName { get; set; }
-        public long DeviceID { get; set; }
-        public string SensorType
-        {
-            get;
-            set;
-        }
-        public string Status
-        {
-            get;
-            set;
-        }
-    }
+    
 }

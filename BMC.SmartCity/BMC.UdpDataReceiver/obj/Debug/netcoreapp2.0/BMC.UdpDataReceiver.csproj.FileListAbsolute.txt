@@ -20,3 +20,17 @@
 /Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.AssemblyInfo.cs
 /Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.dll
 /Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.UdpDataReceiver/obj/Debug/netcoreapp2.0/BMC.UdpDataReceiver.pdb
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\obj\Debug\netcoreapp2.0\BMC.UdpDataReceiver.csprojResolveAssemblyReference.cache
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\obj\Debug\netcoreapp2.0\BMC.UdpDataReceiver.csproj.CoreCompileInputs.cache
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\obj\Debug\netcoreapp2.0\BMC.UdpDataReceiver.AssemblyInfoInputs.cache
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\obj\Debug\netcoreapp2.0\BMC.UdpDataReceiver.AssemblyInfo.cs
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\obj\Debug\netcoreapp2.0\BMC.UdpDataReceiver.dll
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\obj\Debug\netcoreapp2.0\BMC.UdpDataReceiver.pdb
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\bin\Debug\netcoreapp2.0\BMC.UdpDataReceiver.deps.json
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\bin\Debug\netcoreapp2.0\BMC.UdpDataReceiver.runtimeconfig.json
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\bin\Debug\netcoreapp2.0\BMC.UdpDataReceiver.runtimeconfig.dev.json
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\bin\Debug\netcoreapp2.0\BMC.UdpDataReceiver.dll
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\bin\Debug\netcoreapp2.0\BMC.UdpDataReceiver.pdb
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\bin\Debug\netcoreapp2.0\BMC.CoreLibrary.dll
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\bin\Debug\netcoreapp2.0\BMC.CoreLibrary.pdb
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.UdpDataReceiver\obj\Debug\netcoreapp2.0\BMC.UdpDataReceiver.csproj.CopyComplete

@@ -353,6 +353,19 @@
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "BMC.CoreLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BMC.CoreLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BMC.CoreLibrary.dll": {}
+        }
       }
     }
   },
@@ -1137,10 +1150,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BMC.CoreLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BMC.CoreLibrary/BMC.CoreLibrary.csproj",
+      "msbuildProject": "../BMC.CoreLibrary/BMC.CoreLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "BMC.CoreLibrary >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 2.0.1",
       "Microsoft.Extensions.Configuration.EnvironmentVariables >= 2.0.1",
       "Microsoft.Extensions.Configuration.FileExtensions >= 2.0.1",
@@ -1151,33 +1170,46 @@
     ]
   },
   "packageFolders": {
-    "/Users/mifmasterz/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\mifma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/BMC.Simulator.csproj",
+      "projectUniqueName": "C:\\Jobs\\BMC-SmartCity\\BMC.SmartCity\\BMC.SmartCity\\BMC.Simulator\\BMC.Simulator.csproj",
       "projectName": "BMC.Simulator",
-      "projectPath": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/BMC.Simulator.csproj",
-      "packagesPath": "/Users/mifmasterz/.nuget/packages/",
-      "outputPath": "/Users/mifmasterz/Projects/bmc/BMC.SmartCity/BMC.SmartCity/BMC.Simulator/obj",
+      "projectPath": "C:\\Jobs\\BMC-SmartCity\\BMC.SmartCity\\BMC.SmartCity\\BMC.Simulator\\BMC.Simulator.csproj",
+      "packagesPath": "C:\\Users\\mifma\\.nuget\\packages\\",
+      "outputPath": "C:\\Jobs\\BMC-SmartCity\\BMC.SmartCity\\BMC.SmartCity\\BMC.Simulator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/mifmasterz/.config/NuGet/NuGet.Config"
+        "C:\\Users\\mifma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\experiment\\TinyCLR\\TinyCLR6\\nuget": {},
+        "C:\\experiment\\TinyCLR\\TinyCLR9\\TinyCLR OS Libraries v0.9.0": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnet.myget.org/F/aspnetcore-ci-dev/api/v3/index.json": {},
+        "https://www.myget.org/F/nanoframework-dev/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Jobs\\BMC-SmartCity\\BMC.SmartCity\\BMC.SmartCity\\BMC.CoreLibrary\\BMC.CoreLibrary.csproj": {
+              "projectPath": "C:\\Jobs\\BMC-SmartCity\\BMC.SmartCity\\BMC.SmartCity\\BMC.CoreLibrary\\BMC.CoreLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1189,35 +1221,34 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
-            "version": "2.0.1"
-          },
-          "Microsoft.Extensions.Configuration.Json": {
-            "target": "Package",
-            "version": "2.0.1"
-          },
-          "Microsoft.Extensions.Configuration.FileExtensions": {
-            "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
           },
           "Microsoft.Extensions.Configuration.EnvironmentVariables": {
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.Extensions.Configuration.FileExtensions": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.Extensions.Configuration.Json": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "Microsoft.Net.Http": {
             "target": "Package",
-            "version": "2.2.29"
+            "version": "[2.2.29, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
           }
         },
         "imports": [

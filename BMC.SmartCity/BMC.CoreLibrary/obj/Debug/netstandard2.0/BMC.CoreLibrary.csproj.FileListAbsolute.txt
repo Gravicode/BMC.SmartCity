@@ -1,0 +1,11 @@
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\bin\Debug\netstandard2.0\BMC.CoreLibrary.deps.json
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\bin\Debug\netstandard2.0\BMC.CoreLibrary.dll
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.csprojResolveAssemblyReference.cache
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.csproj.CoreCompileInputs.cache
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.AssemblyInfoInputs.cache
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.AssemblyInfo.cs
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\bin\Debug\netstandard2.0\BMC.CoreLibrary.pdb
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.dll
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.pdb
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.Properties.Resources.resources
+C:\Jobs\BMC-SmartCity\BMC.SmartCity\BMC.SmartCity\BMC.CoreLibrary\obj\Debug\netstandard2.0\BMC.CoreLibrary.csproj.GenerateResource.cache

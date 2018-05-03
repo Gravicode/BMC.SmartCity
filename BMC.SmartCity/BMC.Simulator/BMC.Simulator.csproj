@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BMC.CoreLibrary\BMC.CoreLibrary.csproj" />
+  </ItemGroup>
 </Project>

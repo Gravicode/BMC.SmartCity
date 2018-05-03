@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMC.UdpDataReceiver", "BMC.UdpDataReceiver\BMC.UdpDataReceiver.csproj", "{69E3DEA0-7D46-4733-BD71-45906D21EE79}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMC.UdpDataReceiver", "BMC.UdpDataReceiver\BMC.UdpDataReceiver.csproj", "{69E3DEA0-7D46-4733-BD71-45906D21EE79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMC.Simulator", "BMC.Simulator\BMC.Simulator.csproj", "{BF58C394-1A76-4BCD-B91B-5373AD108F28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMC.Simulator", "BMC.Simulator\BMC.Simulator.csproj", "{BF58C394-1A76-4BCD-B91B-5373AD108F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMC.CoreLibrary", "BMC.CoreLibrary\BMC.CoreLibrary.csproj", "{248D61ED-EBCA-4193-BF6C-C6D83B80B7F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +22,15 @@ Global
 		{BF58C394-1A76-4BCD-B91B-5373AD108F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF58C394-1A76-4BCD-B91B-5373AD108F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF58C394-1A76-4BCD-B91B-5373AD108F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248D61ED-EBCA-4193-BF6C-C6D83B80B7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248D61ED-EBCA-4193-BF6C-C6D83B80B7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248D61ED-EBCA-4193-BF6C-C6D83B80B7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248D61ED-EBCA-4193-BF6C-C6D83B80B7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08610B03-E726-43E5-8FCE-CBC196016D68}
 	EndGlobalSection
 EndGlobal
