@@ -24,6 +24,7 @@ namespace BMC.UdpDataReceiver
         {
 
             Console.WriteLine("Start receiving UDP from Node Device..");
+          
             Setup();
             Task loop = new Task(new Action(Loop));
             loop.Start();
